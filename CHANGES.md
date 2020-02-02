@@ -1,11 +1,18 @@
 ## Changelog
 
-### 1.2.0
+### 1.3.0
+  * Bugfix: Enabling multiple symbols on Bitmex with deltas and max depth configured could cause crashes.
+
+### 1.2.0 (2020-01-18)
   * Feature: New exchange: Binance Futures
   * Feature: New Exchange: Binance Jersey
   * Feature: Funding data on Kraken Futures
   * Feature: User defined pair seperator (default still -)
   * Feature: Postgres backend
+  * Feature: Deribit Funding
+  * Bugfix: Deribit subscriptions using config subscribed to symbols incorrectly
+  * Bugfix: Some RabbitMQ messages were missing symbol and exchange data
+  * Feature: Open interest data for OKEX swaps
 
 ### 1.1.0 (2019-11-14)
   * Feature: User enabled logging of exchange messages on error
